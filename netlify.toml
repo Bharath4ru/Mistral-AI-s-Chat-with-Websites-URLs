@@ -4,10 +4,4 @@
   base = "/"
 
 [build.environment]
-  PYTHON_VERSION = "3.8"  # Adjust Python version as needed
-  RUSTUP_HOME = "/opt/buildhome/.rustup"
-  CARGO_HOME = "/opt/buildhome/.cargo"
-  PATH = "/opt/buildhome/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
-
-[[plugins]]
-  package = "@netlify/plugin-rustup"
+  PYTHON_VERSION = "3.12"  # Use a Python version supported by Netlify and your project
